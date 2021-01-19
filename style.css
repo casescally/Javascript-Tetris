@@ -4,6 +4,7 @@
     align-content: center;
     border-style: solid;
     background-color: rgb(8, 58, 3);
+    filter: drop-shadow(0 0 0.75rem crimson);
 }
 
 h1 {
@@ -57,7 +58,7 @@ html {
 }
 
 #start-button {
-    background-color:red;
+    background-color:crimson;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -68,6 +69,7 @@ html {
     margin-bottom: 10%;
     font-family: Lucida Console;
     transition-duration: 0.4s;
+    filter: drop-shadow(1px 4px 4px black);
   }
   
   #start-button:hover {
