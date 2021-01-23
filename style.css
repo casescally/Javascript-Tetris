@@ -64,7 +64,7 @@ html {
 }
 
 #start-button {
-    background-color:crimson;
+    background-color:green;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -78,7 +78,7 @@ html {
     filter: drop-shadow(1px 4px 4px black);
   }
   
-  #start-button:hover {
-    background-color: green;
+  #start-button:active {
+    background-color: crimson;
     color: white;
   }

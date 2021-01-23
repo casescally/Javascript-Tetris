@@ -201,9 +201,11 @@ document.addEventListener("DOMContentLoaded", () => {
   //add functionality to the button
   startBtn.addEventListener("click", () => {
     if (timerId) {
+      startBtn.innerHTML = "Resume";
       clearInterval(timerId);
       timerId = null;
     } else {
+      startBtn.innerHTML = "Pause";
       draw();
       timerId = setInterval(moveDown, 1000);
       nextRandom = Math.floor(Math.random() * theTetrominoes.length);
