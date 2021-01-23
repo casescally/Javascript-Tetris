@@ -202,10 +202,12 @@ document.addEventListener("DOMContentLoaded", () => {
   startBtn.addEventListener("click", () => {
     if (timerId) {
       startBtn.innerHTML = "Resume";
+      startBtn.style.backgroundColor = "green";
       clearInterval(timerId);
       timerId = null;
     } else {
       startBtn.innerHTML = "Pause";
+      startBtn.style.backgroundColor = "crimson";
       draw();
       timerId = setInterval(moveDown, 1000);
       nextRandom = Math.floor(Math.random() * theTetrominoes.length);
