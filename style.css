@@ -4,7 +4,7 @@
     align-content: center;
     border-style: solid;
     background-color: rgb(8, 58, 3);
-    filter: drop-shadow(0 4px 0.5rem crimson);
+    filter: drop-shadow(0 4px 2mm rgb(220, 20, 160));
 }
 
 h1 {
